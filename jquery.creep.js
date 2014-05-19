@@ -49,6 +49,7 @@
 				});
  
 			});
+
 		},
 
 
@@ -90,6 +91,7 @@
 				});
  
 			});
+
 		}
 
 	});
@@ -119,6 +121,7 @@
 			if ( history.pushState ) {
 				history.pushState( null, null, '#'+id );
 			}
+			
 		}
 
 	};
