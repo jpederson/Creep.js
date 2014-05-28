@@ -25,10 +25,10 @@ $(function(){
 There are only a couple options as of now. Here they are:
 
 ```js
-$.fn.creep.options = {
+$("a").creep({
   offset: 0,
   speed: 1000
-};
+});
 ```
 
 #### `offset`
