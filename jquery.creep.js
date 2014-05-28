@@ -114,7 +114,7 @@
 
 			// do the scroll
 			$('html, body').animate({
-				scrollTop: dest.offset().top
+				scrollTop: dest.offset().top + options.offset
 			}, 1000 );
 
 			// if we have pushState
@@ -134,6 +134,7 @@
 	$.fn.creep.options = {
 		mode: "basic",
 		operation: "keyup",
+		offset: 0,
 		error_text: "Please fill in all fields.",
 		callback: function ( elem, data ){}
 	};
