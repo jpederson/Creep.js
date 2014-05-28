@@ -115,7 +115,7 @@
 			// do the scroll
 			$('html, body').animate({
 				scrollTop: dest.offset().top + options.offset
-			}, 1000 );
+			}, options.offset );
 
 			// if we have pushState
 			if ( history.pushState ) {
@@ -132,11 +132,8 @@
 	// Set up some default options for our plugin that can be overridden 
 	// as needed when we actually instantiate our plugin on a form.
 	$.fn.creep.options = {
-		mode: "basic",
-		operation: "keyup",
 		offset: 0,
-		error_text: "Please fill in all fields.",
-		callback: function ( elem, data ){}
+		speed: 1000
 	};
 
 
