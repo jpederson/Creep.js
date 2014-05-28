@@ -115,7 +115,7 @@
 			// do the scroll
 			$('html, body').animate({
 				scrollTop: dest.offset().top + options.offset
-			}, options.offset );
+			}, options.speed );
 
 			// if we have pushState
 			if ( history.pushState ) {
