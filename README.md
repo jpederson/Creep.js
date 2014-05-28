@@ -4,9 +4,9 @@ Quickly add smooth scrolling to any links in your site using this simple plugin.
 
 *****
 
-### Get Started
+### Getting Started
 
-The only file you need (besides a jQuery library) is jquery.creep.min.js. The included css file is only for the example page. Since it's so small, it should ideally get minified and included with your other JS in a single file where possible.
+To get going quickly with Creep, just include the library after jQuery, select your link tags, and run creep on them. This would do it if you're starting fresh:
 
 ```html
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
@@ -17,6 +17,27 @@ $(function(){
 });
 </script>
 ```
+
+*****
+
+### Plugin Options
+
+There are only a couple options as of now. Here they are:
+
+```js
+$.fn.creep.options = {
+  offset: 0,
+  speed: 1000
+};
+```
+
+#### `offset`
+
+Add an offset to change the distance above or below anchor destinations. Helpful when you have a fixed menu and you need to scroll a certain number of pixels above the anchor destination so that your menu doesn't cover the content.
+
+#### `speed`
+
+Adjust the scroll time. Set in milliseconds.
 
 *****
 

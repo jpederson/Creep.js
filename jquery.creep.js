@@ -130,7 +130,7 @@
 
 	// DEFAULTS
 	// Set up some default options for our plugin that can be overridden 
-	// as needed when we actually instantiate our plugin on a form.
+	// as needed when we actually instantiate our plugin link elements.
 	$.fn.creep.options = {
 		offset: 0,
 		speed: 1000
