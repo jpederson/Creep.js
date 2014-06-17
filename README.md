@@ -18,6 +18,12 @@ $(function(){
 </script>
 ```
 
+### NPM Install
+
+```shell
+npm install jquery-creep
+```
+
 *****
 
 ### Plugin Options
