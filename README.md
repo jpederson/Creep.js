@@ -2,7 +2,7 @@
 
 Quickly add smooth scrolling to any links in your site using this simple plugin.
 
-![MIT](https://img.shields.io/github/license/jpederson/Creep.js.svg)
+![Available on Github](https://img.shields.io/github/release/jpederson/Creep.js.svg) ![Available on NPM](https://img.shields.io/npm/v/jquery-creep.svg) ![Available on Bower](https://img.shields.io/bower/l/creep.svg) ![MIT](https://img.shields.io/github/license/jpederson/Creep.js.svg)
 
 *****
 
@@ -20,12 +20,18 @@ $(function(){
 </script>
 ```
 
-![Built with Grunt](https://img.shields.io/badge/built%20with-bower-orange.svg) ![Available on NPM](https://img.shields.io/npm/v/jquery-creep.svg) ![MIT](https://img.shields.io/github/license/jpederson/Accrue.js.svg)
+### Install
 
-### NPM Install
+#### NPM
 
 ```shell
 npm install jquery-creep
+```
+
+#### Bower
+
+```shell
+bower install creep
 ```
 
 *****
@@ -54,4 +60,6 @@ Adjust the scroll time. Set in milliseconds.
 ### Contributing
 
 To contribute, you'll need [nodejs](http://nodejs.org/) and [Grunt](http://gruntjs.com/) installed. Fork and clone the repo, then visit the directory in the terminal and type `npm install`. After that you can simply run the `grunt` command to watch the files in the project. It'll automatically lint, test, compile, and minify the plugin files so you can just code.
+
+![Built with Grunt](https://img.shields.io/badge/built%20with-bower-orange.svg) 
 

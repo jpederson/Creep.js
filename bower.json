@@ -1,0 +1,22 @@
+{
+  "name": "creep",
+  "description": "A small jQuery plugin to enable smooth scrolling on any link on your website.",
+  "main": "jquery.creep.min.js",
+  "authors": [
+    "James Pederson <james@jpederson.com>"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "jquery",
+    "loan",
+    "calculator",
+    "interest"
+  ],
+  "homepage": "https://jpederson.com/Creep.js/",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components"
+  ]
+}
