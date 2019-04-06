@@ -42,7 +42,7 @@ bower install creep
 
 ### Plugin Options
 
-There are only a couple options as of now. Here they are:
+This plugin needs only 2 options, as follows:
 
 ```js
 $("a").creep({
