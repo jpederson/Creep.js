@@ -61,5 +61,5 @@ Adjust the scroll time. Set in milliseconds.
 
 To contribute, you'll need [nodejs](http://nodejs.org/) and [Grunt](http://gruntjs.com/) installed. Fork and clone the repo, then visit the directory in the terminal and type `npm install`. After that you can simply run the `grunt` command to watch the files in the project. It'll automatically lint, test, compile, and minify the plugin files so you can just code.
 
-![Built with Grunt](https://img.shields.io/badge/built%20with-bower-orange.svg) 
+![Built with Grunt](https://img.shields.io/badge/built%20with-bower-orange.svg)
 
