@@ -22,6 +22,8 @@ $(function(){
 </script>
 ```
 
+*****
+
 ### Install
 
 #### NPM
