@@ -4,7 +4,7 @@ Quickly add smooth scrolling to any links in your site using this simple plugin.
 
 *****
 
-![Available on Github](https://img.shields.io/github/release/jpederson/Creep.js.svg) ![Available on NPM](https://img.shields.io/npm/v/jquery-creep.svg) ![Available on Bower](https://img.shields.io/github/release/jpederson/Creep.js.svg?label=bower&color=orange) ![MIT](https://img.shields.io/github/license/jpederson/Creep.js.svg)
+![Available on Github](https://img.shields.io/github/release/jpederson/Creep.js.svg) ![Available on NPM](https://img.shields.io/npm/v/jquery-creep.svg) ![MIT](https://img.shields.io/github/license/jpederson/Creep.js.svg)
 
 *****
 
@@ -32,10 +32,10 @@ $(function(){
 npm install jquery-creep
 ```
 
-#### Bower
+#### Yarn
 
 ```shell
-bower install creep
+yarn install jquery-creep
 ```
 
 *****
