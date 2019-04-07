@@ -67,3 +67,6 @@ To contribute, you'll need [nodejs](http://nodejs.org/) and [Grunt](http://grunt
 
 ![Built with Grunt](https://img.shields.io/badge/built%20with-grunt-orange.svg)
 
+*****
+
+v1.0.0
