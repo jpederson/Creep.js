@@ -30,6 +30,7 @@ $(function(){
 
 ```shell
 git clone https://github.com/jpederson/Creep.js creep
+```
 
 #### NPM
 
