@@ -26,6 +26,11 @@ $(function(){
 
 ### Install
 
+#### Github
+
+```shell
+git clone https://github.com/jpederson/Creep.js creep
+
 #### NPM
 
 ```shell
