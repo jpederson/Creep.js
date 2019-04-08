@@ -22,6 +22,8 @@ $(function(){
 </script>
 ```
 
+After that, any link with a anchor associated with it (a `#` in the href) will smoothly scroll instead of jumping.
+
 *****
 
 ### Install
